@@ -34,3 +34,10 @@ Author:
 Date:   
 
     hello_world.txtを追加
+===============
+課題再提出
+===============
+
+ % git log --oneline
+23c3e4a (HEAD -> main) 日本語訳を追記
+085ab2c hello_world.txtを追加
