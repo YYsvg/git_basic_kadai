@@ -1,0 +1,36 @@
+
+
+~ % mkdir kadai_1
+ % cd kadai_1
+ % ls
+ % touch hello_world.txt
+ % ls
+hello_world.txt
+ % git init
+ % git add hello_world.txt
+ % git commit -m"hello_world.txtを追加"
+[main (root-commit) 085ab2c] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+ % git log
+commit 085ab2cd519572f7e84c673ef7eb6213f8976e75 (HEAD -> main)
+Author: 
+Date:   Sat Mar 2 13:41:21 2024 +0900
+
+    hello_world.txtを追加
+ % git add .
+ % git commit -m"日本語訳を追記"
+[main 23c3e4a] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ % git log
+commit 23c3e4a36353833396ecd55b93dc1da3447d0a08 (HEAD -> main)
+Author: 
+Date:   
+
+    日本語訳を追記
+
+commit 085ab2cd519572f7e84c673ef7eb6213f8976e75
+Author: 
+Date:   
+
+    hello_world.txtを追加
